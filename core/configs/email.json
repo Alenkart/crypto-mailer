@@ -1,0 +1,22 @@
+{
+  "transporter" : {
+    "service" : "Gmail",
+    "auth" : {
+        "user" : "email@gmail.com",
+        "pass" : "email@gmail.com"
+    },
+    "tls": {
+       "rejectUnauthorized": false
+    }
+    },
+    "options" : {
+      "from" : "Crypto Mailer <email@gmail.com>",
+      "to" : [
+        "email@gmail.com",
+        "email@gmail.com",
+        "email@gmail.com"
+      ],
+      "subject" : "Please set a subject",
+      "text" : "Please set a text"
+    }
+}
